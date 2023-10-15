@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>\Box shadow and text shadow</title>
+</head>
+<style>
+    .container{
+        display: flex;
+    }
+    .card{
+        padding: 23ppx 12px;
+        margin: 23px 12px;
+      /*  border: 2px solid red; */
+        background-color: burlywood;
+     /*   box-shadow: offset-x offset-y color; */
+          /*   box-shadow: offset-x offset-y blur-radius color; */
+               /*   box-shadow: offset-x offset-y blur-radius spread-radius color; */
+      /*  box-shadow: 10px 13px green; */
+      /*  box-shadow: -10px -13px green; */
+        box-shadow: 3px 5px green ;
+
+        box-shadow: 3px 5px green 4px 6ox red;
+    }
+    .card h2{
+        /* text-shadow: 3px 4px red; */
+        text-shadow: 3px 4px 2px white;
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="card" id="card-1">
+            <h2>this is c++ course</h2>
+            <p>i have started c++ course which does not mean that we will stop this course. we will continue this course to completion. Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                Sapiente sed soluta dignissimos architecto ullam eius
+                 nostrum! Sapiente ipsa in blanditiis. Velit dicta,
+                  voluptatibus nulla ex perferendis facere molestias 
+                  quod quis doloremque dolorum, eius odit?</p>
+        </div>
+        <div class="card" id="card-2">
+            <h2>this is html course</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                 Tempora quisquam reiciendis est fuga ad doloremque velit
+                  totam at voluptas atque rem animi aliquam molestias
+                   reprehenderit quibusdam ducimus nisi facere cumque 
+                   eligendi magnam, quis saepe!</p>
+        </div>
+        <div class="card" id="card-3">
+            <h2>card3</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                 Ipsam, deserunt! Quas velit eveniet aut obcaecati,
+                  commodi dignissimos rerum dolores laudantium ipsam ut
+                   dolor delectus quibusdam dicta quaerat similique temporibus
+                    iure quod quia suscipit est!</p>
+        </div>
+
+    </div>
+    
+</body>
+</html>

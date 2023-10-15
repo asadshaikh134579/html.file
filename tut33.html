@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Before and after pseudo Selectors</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            background-color: black;
+            color: white;
+            background: url('https://images.unsplash.com/photo-1503524921528-8f5fa912ea75?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fHNvdXJjZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60')
+            no-repeat center center/cover;
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+          
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            opacity: 0.5;
+
+        }
+        .navigation{
+            font-size: 20px;
+            display: flex;
+        }
+        li{
+            list-style: none;
+            padding: 34px 23px;
+        }
+        section{
+            height: 344px;
+           
+            margin: 3px 230px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        h1{
+            font-size: 4rem;
+        }
+        p{
+            text-align: center;
+        }
+     /*   section::after{
+            content: "this is a content";
+        } */
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul class="navigation">
+                <li class="item">Home</li>
+                <li  class="item">About</li>
+                <li  class="item">Services</li>
+                <li  class="item">Contatact Us</li>
+            </ul>
+            </nav>
+            <section>
+                <h1>welcome to coding world</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                     Dignissimos velit iste, mollitia nostrum illum commodi
+                      nobis earum dolor similique, illo beatae doloribus ab
+                       libero corporis sit nam totam provident repellendus
+                        officiis ipsa fuga non quae eveniet. Eos nisi asperiores ullam.</p>
+            </section>
+    </header>
+    
+</body>
+</html>
